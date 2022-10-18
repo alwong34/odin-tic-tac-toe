@@ -1,0 +1,26 @@
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    width: 500px;
+    border: black solid 1px;
+}
+
+.tile {
+    display: flex;
+    border: black solid 1px;
+    font-size: 72pt;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
